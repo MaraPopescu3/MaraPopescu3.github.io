@@ -2,30 +2,157 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name | Projects</title>
+  <title>Mara Popescu | Quantitative Finance</title>
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 850px;
+      margin: 50px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #111;
     }
-    h1 { margin-bottom: 0; }
-    .project { margin-bottom: 30px; }
-    a { color: #0366d6; text-decoration: none; }
+    h1 {
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      color: #444;
+      margin-top: 0;
+    }
+    hr {
+      margin: 30px 0;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .project {
+      margin-bottom: 25px;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
 
-<h1>Your Name</h1>
-<p>Computer Science Student @ Your University</p>
+<h1>Mara Popescu</h1>
+<p class="subtitle">
+Quantitative Finance & Risk Management | Bocconi University <br>
+Zurich · Milan · Rotterdam
+</p>
+
+<p>
+Currently a Quant Risk Modelling Intern at UBS, with academic and practical
+experience spanning derivatives, credit risk, stochastic modeling, and
+simulation-based valuation.
+</p>
 
 <hr>
 
-<div class="project">
-  <h2>Project Title</h2>
-  <p>Short description of what you built, tools used, and what problem it solves.</p>
-  <a href="https://github.com/yourusername/project-repo">View on GitHub</a>
+<div class="section">
+  <h2>Education</h2>
+  <ul>
+    <li>
+      <strong>Specialized Master in Quantitative Finance and Risk Management</strong><br>
+      Bocconi University (GPA: 100/110)
+    </li>
+    <li>
+      <strong>BSc Economics and Business Economics</strong><br>
+      Erasmus University Rotterdam (Cum Laude, GPA: 8.27/10)
+    </li>
+    <li>
+      <strong>Minor Abroad</strong> – University of Zurich (GPA: 5.5/6)
+    </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Selected Projects</h2>
+
+  <div class="project">
+    <strong>Delta-Neutral Equity Options Portfolio</strong>
+    <p>
+      Constructed and risk-managed a delta-neutral options portfolio using listed
+      vanilla and OTC structures across maturities. Simulated P&L via Monte Carlo
+      under the Heston stochastic volatility model, computed Value-at-Risk,
+      market and volatility sensitivities, and evaluated risk under hard limits
+      and stress scenarios.
+    </p>
+  </div>
+
+  <div class="project">
+    <strong>XVA Pricing of a Barrier Option</strong>
+    <p>
+      Developed a simulation-based framework to quantify counterparty credit,
+      funding, and capital valuation adjustments on a down-and-in put option.
+      Interest rates were simulated under a calibrated Hull–White short-rate
+      model with equity prices following GBM under stochastic rates. Produced
+      exposure profiles via pathwise revaluation.
+    </p>
+  </div>
+
+  <div class="project">
+    <strong>Real Estate Sponsor Risk & Cash-Flow Waterfall Model</strong>
+    <p>
+      Modeled sponsor risk for a built-to-suit data center using a period-by-period
+      cash-flow waterfall. Structured a senior debt mini-perm, priced an interest
+      rate swap, incorporated credit and funding adjustments, computed DSCR and
+      leverage ratios, and stress-tested key risk drivers.
+    </p>
+  </div>
+
+  <div class="project">
+    <strong>Bachelor Thesis: Volatility Forecasting</strong>
+    <p>
+      Evaluated traditional volatility models against Random Forests and LSTM
+      neural networks in forecasting realized volatility. Achieved a final grade
+      of 8.5/10.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+  <ul>
+    <li>
+      <strong>Quant Risk Modelling Intern</strong>, UBS – Zurich<br>
+      Designed and implemented a division-wide data ownership framework to support
+      cloud migration in credit risk aggregation platforms.
+    </li>
+    <li>
+      <strong>Analyst Intern</strong>, Schwarz Group – Bucharest
+    </li>
+    <li>
+      <strong>Teaching Assistant</strong>, Erasmus School of Economics<br>
+      Mathematics and Data Analytics
+    </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Skills</h2>
+  <ul>
+    <li>Python, Stata, Monte Carlo Simulation</li>
+    <li>Derivatives, Credit Risk, Market Risk, XVA</li>
+    <li>Refinitiv Workspace, Bloomberg Market Concepts</li>
+    <li>Languages: Romanian (Native), English (C1), German (B1)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://linkedin.com/in/mara-popescu" target="_blank">LinkedIn</a></li>
+    <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+  </ul>
 </div>
 
 </body>
